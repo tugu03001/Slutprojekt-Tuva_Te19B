@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="webb.css?Version=1.29" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="quiz.js"></script>
+		<!--Står vad hemsidan heter uppe bland flikarna-->
+	<title>
+		Punk för Dummies
+	</title>
+	<link rel='shortcut icon' type='image/x-icon' href='ikon.ico' />
+</head>
+
+<body>
+
+	<header>
+		<!--Här skrivs navbaren ut-->
+	<nav class="nav"> 
+		
+		<div class="grid-container-nav">
+			
+			<!--Detta är loggan som också är klickbar och när man tryckt å den kommer man till första sidan-->
+			<div class="grid-item-nav">
+				<ul>
+					<li><a href="index.html" class="nav-logo">
+						<img src="Dummies_logo().png" alt="Dummis loggan">
+					</a>
+					</li>
+				</ul>
+			</div>
+			<!--Alla andra är vanliga texter som är länkade till de andra sidorna-->
+			<div class="grid-item-nav">
+				<ul>
+					<li><a href="musik.html" class="nav-a">
+						Musik
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="grid-item-nav">
+				<ul>
+					<li><a href="band.html" class="nav-a">
+						Band
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="grid-item-nav">
+				<ul>
+					<li><a href="mode.html" class="nav-a">
+						Mode
+						</a>
+					</li>
+				</ul>
+			</div>  
+			<div class="grid-item-nav">
+				<ul>
+					<li><a href="quiz.html" class="nav-a">
+						Quiz
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+			
+		</nav>
+	</header>
+
+	<main class="container">
+		<h1>
+			Quiz fr Dummies
+		</h1>
+		<!--Huvud contentet på quiz sidan-->
+		<div class="grid-container-main">
+			<!--Här skrivs den röda rektangeln runt-->
+			<div class="item10">
+				<div class="quiz1">
+					<p> Nu när du har fått läsa en massa om punken. Historian, olika band, lyssnat på en massa punk låtar och fått ta del av modet. Är det nu dags att se hur mycket du faktiskt har lärt dig. Ta quizet nedan för att får reda på det.  </p>
+				</div>
+				<!--Här skpas ett formulär med 5 olika frågor med 4 olika förslag. Man väljer ett förslag genom att trycka på knappar och knapptypen är radio. Eftersom varje försla har samma namn alltså förslagen till fråga ett har namnet "fråga1" osv. Det gör att man bara kan välja ett alternativ er fråga-->
+				<form name="quiz" id="quiz" class="quiz">
+					<div class="quiz2">
+						<p>1. När kom punken?</p>
+						<p><input type="radio" name="fråga1" value="1970">1970</p>
+						<p><input type="radio" name="fråga1" value="2000">2000</p>
+						<p><input type="radio" name="fråga1" value="1950">1950</p>
+						<p><input type="radio" name="fråga1" value="2010">2010</p>
+					</div>
+
+					<div class="quiz3">
+						<p>2. Var kom punken ifrån?</p>
+						<p><input type="radio" name="fråga2" value="Sverige">Sverige</p>
+						<p><input type="radio" name="fråga2" value="USA"> USA</p>
+						<p><input type="radio" name="fråga2" value="England">England</p>
+						<p><input type="radio" name="fråga2" value="Japan">Japan</p>
+					</div>
+
+					<div class="quiz4">
+						<p>3. Vilket band har skrivit "Die Mauer"?</p>
+						<p><input type="radio" name="fråga3" value="Ramones">Ramoens</p>
+						<p><input type="radio" name="fråga3" value="Ebba Grön">Ebba Grön</p>
+						<p><input type="radio" name="fråga3" value="The Clash">The Clash</p>
+						<p><input type="radio" name="fråga3" value="Rancid">Rancid</p>
+					</div>
+
+					<div class="quiz5">
+						<p>4. Var står punkare politiskt?</p>
+						<p><input type="radio" name="fråga4" value="vänster">Vänster</p>
+						<p><input type="radio" name="fråga4" value="höger">Höger</p>
+						<p><input type="radio" name="fråga4" value="mitten"> I mitten</p>
+						<p><input type="radio" name="fråga4" value="ingenstans">Ingenstans</p>
+					</div>
+
+					<div class="quiz6">
+						<p>5. Till vilket band hör Sid Vicious</p>
+						<p><input type="radio" name="fråga5" value="Bad Religion">Bad Religion</p>
+						<p><input type="radio" name="fråga5" value="Exploited">Exploited</p>
+						<p><input type="radio" name="fråga5" value="Asta Kask">Asta kask</p>
+						<p><input type="radio" name="fråga5" value="Sexpistols">Sexpistols</p>
+					</div> 
+
+
+					<div class="quiz7">
+						<p>7. Var kännetecknas punken med?</p>
+						<p><input type="radio" name="fråga6" value="Antimode och Anarkism">Antimode och Anarkism</p>
+						<p><input type="radio" name="fråga6" value="Solidaritet">Solidaritet</p>
+						<p><input type="radio" name="fråga6" value="Pop och dans">Pop och dans</p>
+						<p><input type="radio" name="fråga6" value="Hippie">Hippie</p>
+					</div>
+
+					<div class="quiz8">
+						<p>8. Vad hette Asta Kask från början?</p>
+						<p><input type="radio" name="fråga7" value="Ebba Röd">Ebba Röd</p>
+						<p><input type="radio" name="fråga7" value="X-tas">X-tas</p>
+						<p><input type="radio" name="fråga7" value="Asta Kask">Asta kask</p>
+						<p><input type="radio" name="fråga7" value="Asta">Asta</p>
+					</div>
+
+					<div class="quiz9">
+						<p>9. Vad är viktigast att tänka på kring punk mode?</p>
+						<p><input type="radio" name="fråga8" value="Popingt och ljust">Popingt och ljust</p>
+						<p><input type="radio" name="fråga8" value="Följa normen">Följa normens</p>
+						<p><input type="radio" name="fråga8" value="Göra allt">Göra allt själv och sticka ut</p>
+						<p><input type="radio" name="fråga8" value="Nytt och frächt">Nytt och frächt</p>
+					</div>
+
+					<div class="quiz10">
+						<p>9. Vad heter punk dansen?</p>
+						<p><input type="radio" name="fråga9" value="Vals">Vals</p>
+						<p><input type="radio" name="fråga9" value="Prog">Prog</p>
+						<p><input type="radio" name="fråga9" value="Bugg">Bugg</p>
+						<p><input type="radio" name="fråga9" value="Mosh">Mosh</p>
+					</div>
+
+					<div class="quiz11">
+						<p>10. Var ifrån kommer Ramones?</p>
+						<p><input type="radio" name="fråga10" value="Queens">Queens</p>
+						<p><input type="radio" name="fråga10" value="London">London</p>
+						<p><input type="radio" name="fråga10" value="Stockholm">Stockholm</p>
+						<p><input type="radio" name="fråga10" value="LA">LA</p>
+					</div>
+
+					<!--Här kommer det en knapp längst ned och när den knapen tyrcks ska den kalla på javascript koden. Då ska resultatet visas och en textsom hör till och den knappen kommer att bytas till reset knapen-->
+				<input type="button" name="klar" value="Jag är klar" id="button" onclick="check()">
+				<!--Här visisas resultatet-->
+				<p id="resultat"></p>
+
+				<!--Här är den andra knapen som ska rensa alla svaren och så kan man börja om. Här när man trycker på den rensar allt och knaparna kommer att yta tillbaka-->
+				<input type="reset" name="reset" value="Gör om" id="reset" onclick="byt()">
+			</form>
+		</div>
+		</div>
+	</main>
+
+		<!--Skriver ut fottern lägnst ner-->
+<footer>
+	<div class="grid-container-footer">
+		<div class="footerX">
+			<img src="Dummies_logo().png" alt="Logga">
+		</div>
+		<div class="footer1">
+			<h3>
+				Punk för Dummies
+			</h3>
+		</div>
+		<!--När man trycker på "hem", "Musik", "Band", "Mode" och "Quiz" kommer man att komma till respektive sida-->
+		<div class="footer2">
+			<a href="index.html" class="nav-a">
+				Hem
+			</a>
+		</div>
+		<div class="footer3">
+			<a href="musik.html" class="nav-a">
+				Musik
+			</a>
+		</div>
+		<div class="footer4">
+			<a href="band.html" class="nav-a">
+				Band
+			</a>
+		</div>
+		<div class="footer5">
+			<a href="mode.html" class="nav-a">
+				Mode
+			</a>
+		</div>
+		<div class="footer6">
+			<a href="quiz.html" class="nav-a">
+				Quiz
+			</a>
+		</div>
+		<div class="footer7">
+			<a>Skapad av Tuva Gunnarsson</a>
+		</div>	
+	</div>
+</footer>
+
+
+</body> 
+</html>
